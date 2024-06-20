@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF2C7AC22C23AFD500BBE3B3 /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2C7AC12C23AFD500BBE3B3 /* Overlay.swift */; };
+		AF2C7AC42C23B5FB00BBE3B3 /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2C7AC32C23B5FB00BBE3B3 /* Stacks.swift */; };
+		AF2C7AC62C23C59F00BBE3B3 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2C7AC52C23C59F00BBE3B3 /* Padding.swift */; };
+		AF2C7AC82C23D60F00BBE3B3 /* Spacers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2C7AC72C23D60F00BBE3B3 /* Spacers.swift */; };
+		AFCF7A542C23006100AB623D /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCF7A532C23006100AB623D /* Frame.swift */; };
 		AFD453492C1AE30300F9A05A /* SwiftEssentialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD453482C1AE30300F9A05A /* SwiftEssentialApp.swift */; };
 		AFD4534B2C1AE30300F9A05A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4534A2C1AE30300F9A05A /* ContentView.swift */; };
 		AFD4534D2C1AE30400F9A05A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD4534C2C1AE30400F9A05A /* Assets.xcassets */; };
 		AFD453502C1AE30400F9A05A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD4534F2C1AE30400F9A05A /* Preview Assets.xcassets */; };
+		AFD453572C1AE33400F9A05A /* AddingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD453562C1AE33400F9A05A /* AddingText.swift */; };
+		AFD453592C1AEBE100F9A05A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD453582C1AEBE100F9A05A /* Colors.swift */; };
+		AFD4535B2C1AEC0900F9A05A /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4535A2C1AEC0900F9A05A /* Shapes.swift */; };
+		AFD4535D2C1AF31100F9A05A /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4535C2C1AF31100F9A05A /* Gradient.swift */; };
+		AFD4535F2C1B03C900F9A05A /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4535E2C1B03C900F9A05A /* Images.swift */; };
+		AFD453612C1B093E00F9A05A /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD453602C1B093E00F9A05A /* Symbols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF2C7AC12C23AFD500BBE3B3 /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
+		AF2C7AC32C23B5FB00BBE3B3 /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
+		AF2C7AC52C23C59F00BBE3B3 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
+		AF2C7AC72C23D60F00BBE3B3 /* Spacers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacers.swift; sourceTree = "<group>"; };
+		AFCF7A532C23006100AB623D /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		AFD453452C1AE30300F9A05A /* SwiftEssential.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftEssential.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD453482C1AE30300F9A05A /* SwiftEssentialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEssentialApp.swift; sourceTree = "<group>"; };
 		AFD4534A2C1AE30300F9A05A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AFD4534C2C1AE30400F9A05A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFD4534F2C1AE30400F9A05A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFD453562C1AE33400F9A05A /* AddingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingText.swift; sourceTree = "<group>"; };
+		AFD453582C1AEBE100F9A05A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		AFD4535A2C1AEC0900F9A05A /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		AFD4535C2C1AF31100F9A05A /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		AFD4535E2C1B03C900F9A05A /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		AFD453602C1B093E00F9A05A /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +75,17 @@
 			children = (
 				AFD453482C1AE30300F9A05A /* SwiftEssentialApp.swift */,
 				AFD4534A2C1AE30300F9A05A /* ContentView.swift */,
+				AFD453562C1AE33400F9A05A /* AddingText.swift */,
+				AFD4535A2C1AEC0900F9A05A /* Shapes.swift */,
+				AFD453582C1AEBE100F9A05A /* Colors.swift */,
+				AFD4535C2C1AF31100F9A05A /* Gradient.swift */,
+				AFD4535E2C1B03C900F9A05A /* Images.swift */,
+				AFD453602C1B093E00F9A05A /* Symbols.swift */,
+				AFCF7A532C23006100AB623D /* Frame.swift */,
+				AF2C7AC12C23AFD500BBE3B3 /* Overlay.swift */,
+				AF2C7AC32C23B5FB00BBE3B3 /* Stacks.swift */,
+				AF2C7AC52C23C59F00BBE3B3 /* Padding.swift */,
+				AF2C7AC72C23D60F00BBE3B3 /* Spacers.swift */,
 				AFD4534C2C1AE30400F9A05A /* Assets.xcassets */,
 				AFD4534E2C1AE30400F9A05A /* Preview Content */,
 			);
@@ -137,8 +170,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFCF7A542C23006100AB623D /* Frame.swift in Sources */,
+				AFD4535F2C1B03C900F9A05A /* Images.swift in Sources */,
+				AF2C7AC42C23B5FB00BBE3B3 /* Stacks.swift in Sources */,
+				AF2C7AC22C23AFD500BBE3B3 /* Overlay.swift in Sources */,
+				AFD453612C1B093E00F9A05A /* Symbols.swift in Sources */,
+				AFD453572C1AE33400F9A05A /* AddingText.swift in Sources */,
+				AFD453592C1AEBE100F9A05A /* Colors.swift in Sources */,
+				AFD4535B2C1AEC0900F9A05A /* Shapes.swift in Sources */,
 				AFD4534B2C1AE30300F9A05A /* ContentView.swift in Sources */,
 				AFD453492C1AE30300F9A05A /* SwiftEssentialApp.swift in Sources */,
+				AFD4535D2C1AF31100F9A05A /* Gradient.swift in Sources */,
+				AF2C7AC62C23C59F00BBE3B3 /* Padding.swift in Sources */,
+				AF2C7AC82C23D60F00BBE3B3 /* Spacers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
