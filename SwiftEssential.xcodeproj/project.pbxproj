@@ -20,6 +20,10 @@
 		AF651AB52C251AFD0091D6DD /* Discussion2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF651AB42C251AFD0091D6DD /* Discussion2.swift */; };
 		AF651AB72C251ED90091D6DD /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF651AB62C251ED90091D6DD /* GridLayout.swift */; };
 		AF651AB92C2526A50091D6DD /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF651AB82C2526A50091D6DD /* Buttons.swift */; };
+		AF651ABB2C253B6A0091D6DD /* StateProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF651ABA2C253B6A0091D6DD /* StateProperty.swift */; };
+		AF651ABD2C25455C0091D6DD /* ExtractSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF651ABC2C25455C0091D6DD /* ExtractSubView.swift */; };
+		AF651ABF2C25587D0091D6DD /* Conditional.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF651ABE2C25587D0091D6DD /* Conditional.swift */; };
+		AF651AC12C255B5F0091D6DD /* Conditional2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF651AC02C255B5F0091D6DD /* Conditional2.swift */; };
 		AFCF7A542C23006100AB623D /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCF7A532C23006100AB623D /* Frame.swift */; };
 		AFD453492C1AE30300F9A05A /* SwiftEssentialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD453482C1AE30300F9A05A /* SwiftEssentialApp.swift */; };
 		AFD4534B2C1AE30300F9A05A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4534A2C1AE30300F9A05A /* ContentView.swift */; };
@@ -47,6 +51,10 @@
 		AF651AB42C251AFD0091D6DD /* Discussion2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discussion2.swift; sourceTree = "<group>"; };
 		AF651AB62C251ED90091D6DD /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		AF651AB82C2526A50091D6DD /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		AF651ABA2C253B6A0091D6DD /* StateProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateProperty.swift; sourceTree = "<group>"; };
+		AF651ABC2C25455C0091D6DD /* ExtractSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubView.swift; sourceTree = "<group>"; };
+		AF651ABE2C25587D0091D6DD /* Conditional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditional.swift; sourceTree = "<group>"; };
+		AF651AC02C255B5F0091D6DD /* Conditional2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditional2.swift; sourceTree = "<group>"; };
 		AFCF7A532C23006100AB623D /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		AFD453452C1AE30300F9A05A /* SwiftEssential.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftEssential.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD453482C1AE30300F9A05A /* SwiftEssentialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEssentialApp.swift; sourceTree = "<group>"; };
@@ -112,9 +120,13 @@
 				AF651AB22C2515BC0091D6DD /* LazyStacks.swift */,
 				AF651AB42C251AFD0091D6DD /* Discussion2.swift */,
 				AF651AB62C251ED90091D6DD /* GridLayout.swift */,
+				AF651AB82C2526A50091D6DD /* Buttons.swift */,
+				AF651ABA2C253B6A0091D6DD /* StateProperty.swift */,
+				AF651ABC2C25455C0091D6DD /* ExtractSubView.swift */,
+				AF651ABE2C25587D0091D6DD /* Conditional.swift */,
+				AF651AC02C255B5F0091D6DD /* Conditional2.swift */,
 				AFD4534C2C1AE30400F9A05A /* Assets.xcassets */,
 				AFD4534E2C1AE30400F9A05A /* Preview Content */,
-				AF651AB82C2526A50091D6DD /* Buttons.swift */,
 			);
 			path = SwiftEssential;
 			sourceTree = "<group>";
@@ -202,16 +214,20 @@
 				AF651AB52C251AFD0091D6DD /* Discussion2.swift in Sources */,
 				AF651AB92C2526A50091D6DD /* Buttons.swift in Sources */,
 				AF651AB32C2515BC0091D6DD /* LazyStacks.swift in Sources */,
+				AF651AC12C255B5F0091D6DD /* Conditional2.swift in Sources */,
 				AFD4535F2C1B03C900F9A05A /* Images.swift in Sources */,
 				AF2C7ACC2C23F6AF00BBE3B3 /* InitAndEnum.swift in Sources */,
 				AF2C7AC42C23B5FB00BBE3B3 /* Stacks.swift in Sources */,
 				AF2C7ACA2C23EC2100BBE3B3 /* Discussion1.swift in Sources */,
+				AF651ABB2C253B6A0091D6DD /* StateProperty.swift in Sources */,
 				AF2C7AC22C23AFD500BBE3B3 /* Overlay.swift in Sources */,
 				AFD453612C1B093E00F9A05A /* Symbols.swift in Sources */,
 				AFD453572C1AE33400F9A05A /* AddingText.swift in Sources */,
 				AFD453592C1AEBE100F9A05A /* Colors.swift in Sources */,
 				AF651AB72C251ED90091D6DD /* GridLayout.swift in Sources */,
+				AF651ABD2C25455C0091D6DD /* ExtractSubView.swift in Sources */,
 				AFD4535B2C1AEC0900F9A05A /* Shapes.swift in Sources */,
+				AF651ABF2C25587D0091D6DD /* Conditional.swift in Sources */,
 				AFD4534B2C1AE30300F9A05A /* ContentView.swift in Sources */,
 				AFD453492C1AE30300F9A05A /* SwiftEssentialApp.swift in Sources */,
 				AFD4535D2C1AF31100F9A05A /* Gradient.swift in Sources */,
