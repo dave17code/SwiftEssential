@@ -24,6 +24,8 @@
 		AF651ABD2C25455C0091D6DD /* ExtractSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF651ABC2C25455C0091D6DD /* ExtractSubView.swift */; };
 		AF651ABF2C25587D0091D6DD /* Conditional.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF651ABE2C25587D0091D6DD /* Conditional.swift */; };
 		AF651AC12C255B5F0091D6DD /* Conditional2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF651AC02C255B5F0091D6DD /* Conditional2.swift */; };
+		AF651AC32C25660F0091D6DD /* BindingProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF651AC22C25660F0091D6DD /* BindingProperty.swift */; };
+		AF651AC52C257C340091D6DD /* ListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF651AC42C257C340091D6DD /* ListLayout.swift */; };
 		AFCF7A542C23006100AB623D /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCF7A532C23006100AB623D /* Frame.swift */; };
 		AFD453492C1AE30300F9A05A /* SwiftEssentialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD453482C1AE30300F9A05A /* SwiftEssentialApp.swift */; };
 		AFD4534B2C1AE30300F9A05A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4534A2C1AE30300F9A05A /* ContentView.swift */; };
@@ -55,6 +57,8 @@
 		AF651ABC2C25455C0091D6DD /* ExtractSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubView.swift; sourceTree = "<group>"; };
 		AF651ABE2C25587D0091D6DD /* Conditional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditional.swift; sourceTree = "<group>"; };
 		AF651AC02C255B5F0091D6DD /* Conditional2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditional2.swift; sourceTree = "<group>"; };
+		AF651AC22C25660F0091D6DD /* BindingProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingProperty.swift; sourceTree = "<group>"; };
+		AF651AC42C257C340091D6DD /* ListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLayout.swift; sourceTree = "<group>"; };
 		AFCF7A532C23006100AB623D /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		AFD453452C1AE30300F9A05A /* SwiftEssential.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftEssential.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD453482C1AE30300F9A05A /* SwiftEssentialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEssentialApp.swift; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 				AF651ABC2C25455C0091D6DD /* ExtractSubView.swift */,
 				AF651ABE2C25587D0091D6DD /* Conditional.swift */,
 				AF651AC02C255B5F0091D6DD /* Conditional2.swift */,
+				AF651AC22C25660F0091D6DD /* BindingProperty.swift */,
+				AF651AC42C257C340091D6DD /* ListLayout.swift */,
 				AFD4534C2C1AE30400F9A05A /* Assets.xcassets */,
 				AFD4534E2C1AE30400F9A05A /* Preview Content */,
 			);
@@ -210,8 +216,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFCF7A542C23006100AB623D /* Frame.swift in Sources */,
+				AF651AC52C257C340091D6DD /* ListLayout.swift in Sources */,
 				AF651AB12C2508480091D6DD /* IgnoreSafeAreaLayout.swift in Sources */,
 				AF651AB52C251AFD0091D6DD /* Discussion2.swift in Sources */,
+				AF651AC32C25660F0091D6DD /* BindingProperty.swift in Sources */,
 				AF651AB92C2526A50091D6DD /* Buttons.swift in Sources */,
 				AF651AB32C2515BC0091D6DD /* LazyStacks.swift in Sources */,
 				AF651AC12C255B5F0091D6DD /* Conditional2.swift in Sources */,
